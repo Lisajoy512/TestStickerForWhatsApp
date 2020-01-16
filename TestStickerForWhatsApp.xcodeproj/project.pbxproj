@@ -16,6 +16,23 @@
 		283A243E23D0506400A7035D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 283A243D23D0506400A7035D /* main.m */; };
 		283A244823D0506400A7035D /* TestStickerForWhatsAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 283A244723D0506400A7035D /* TestStickerForWhatsAppTests.m */; };
 		283A245323D0506400A7035D /* TestStickerForWhatsAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 283A245223D0506400A7035D /* TestStickerForWhatsAppUITests.m */; };
+		283A246523D0510200A7035D /* 01_Cuppy_smile.png in Resources */ = {isa = PBXBuildFile; fileRef = 283A246123D0510200A7035D /* 01_Cuppy_smile.png */; };
+		283A246623D0510200A7035D /* 03_Cuppy_rofl.png in Resources */ = {isa = PBXBuildFile; fileRef = 283A246223D0510200A7035D /* 03_Cuppy_rofl.png */; };
+		283A246723D0510200A7035D /* 02_Cuppy_lol.png in Resources */ = {isa = PBXBuildFile; fileRef = 283A246323D0510200A7035D /* 02_Cuppy_lol.png */; };
+		283A246823D0510200A7035D /* tray_Cuppy.png in Resources */ = {isa = PBXBuildFile; fileRef = 283A246423D0510200A7035D /* tray_Cuppy.png */; };
+		283A246A23D0511500A7035D /* sticker_packs.wasticker in Resources */ = {isa = PBXBuildFile; fileRef = 283A246923D0511500A7035D /* sticker_packs.wasticker */; };
+		283A247623D0513400A7035D /* YYImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 283A246C23D0513300A7035D /* YYImage.m */; };
+		283A247723D0513400A7035D /* YYImageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 283A246F23D0513300A7035D /* YYImageCoder.m */; };
+		283A247823D0513400A7035D /* YYSpriteSheetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 283A247123D0513400A7035D /* YYSpriteSheetImage.m */; };
+		283A247923D0513400A7035D /* YYAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 283A247423D0513400A7035D /* YYAnimatedImageView.m */; };
+		283A247A23D0513400A7035D /* YYFrameImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 283A247523D0513400A7035D /* YYFrameImage.m */; };
+		283A249123D051BC00A7035D /* Interoperability.m in Sources */ = {isa = PBXBuildFile; fileRef = 283A248523D051BB00A7035D /* Interoperability.m */; };
+		283A249223D051BC00A7035D /* StickerPack.m in Sources */ = {isa = PBXBuildFile; fileRef = 283A248623D051BB00A7035D /* StickerPack.m */; };
+		283A249323D051BC00A7035D /* WebPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 283A248823D051BB00A7035D /* WebPManager.m */; };
+		283A249423D051BC00A7035D /* ImageData.m in Sources */ = {isa = PBXBuildFile; fileRef = 283A248A23D051BC00A7035D /* ImageData.m */; };
+		283A249523D051BC00A7035D /* StickerPackManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 283A248C23D051BC00A7035D /* StickerPackManager.m */; };
+		283A249623D051BC00A7035D /* Sticker.m in Sources */ = {isa = PBXBuildFile; fileRef = 283A249023D051BC00A7035D /* Sticker.m */; };
+		283A249B23D054D700A7035D /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 283A249A23D054D700A7035D /* WebP.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +52,21 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		283A248323D0518400A7035D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		283A242823D0505F00A7035D /* TestStickerForWhatsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestStickerForWhatsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		283A242823D0505F00A7035D /* TestSticker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSticker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		283A242B23D0505F00A7035D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		283A242C23D0505F00A7035D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		283A242E23D0505F00A7035D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
@@ -54,6 +84,35 @@
 		283A244E23D0506400A7035D /* TestStickerForWhatsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestStickerForWhatsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		283A245223D0506400A7035D /* TestStickerForWhatsAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestStickerForWhatsAppUITests.m; sourceTree = "<group>"; };
 		283A245423D0506400A7035D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		283A246123D0510200A7035D /* 01_Cuppy_smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01_Cuppy_smile.png; sourceTree = "<group>"; };
+		283A246223D0510200A7035D /* 03_Cuppy_rofl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 03_Cuppy_rofl.png; sourceTree = "<group>"; };
+		283A246323D0510200A7035D /* 02_Cuppy_lol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02_Cuppy_lol.png; sourceTree = "<group>"; };
+		283A246423D0510200A7035D /* tray_Cuppy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tray_Cuppy.png; sourceTree = "<group>"; };
+		283A246923D0511500A7035D /* sticker_packs.wasticker */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sticker_packs.wasticker; sourceTree = "<group>"; };
+		283A246C23D0513300A7035D /* YYImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYImage.m; sourceTree = "<group>"; };
+		283A246D23D0513300A7035D /* YYImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYImage.h; sourceTree = "<group>"; };
+		283A246E23D0513300A7035D /* YYAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYAnimatedImageView.h; sourceTree = "<group>"; };
+		283A246F23D0513300A7035D /* YYImageCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYImageCoder.m; sourceTree = "<group>"; };
+		283A247023D0513300A7035D /* YYSpriteSheetImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYSpriteSheetImage.h; sourceTree = "<group>"; };
+		283A247123D0513400A7035D /* YYSpriteSheetImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYSpriteSheetImage.m; sourceTree = "<group>"; };
+		283A247223D0513400A7035D /* YYFrameImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFrameImage.h; sourceTree = "<group>"; };
+		283A247323D0513400A7035D /* YYImageCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYImageCoder.h; sourceTree = "<group>"; };
+		283A247423D0513400A7035D /* YYAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYAnimatedImageView.m; sourceTree = "<group>"; };
+		283A247523D0513400A7035D /* YYFrameImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFrameImage.m; sourceTree = "<group>"; };
+		283A248523D051BB00A7035D /* Interoperability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Interoperability.m; sourceTree = "<group>"; };
+		283A248623D051BB00A7035D /* StickerPack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StickerPack.m; sourceTree = "<group>"; };
+		283A248723D051BB00A7035D /* WebPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebPManager.h; sourceTree = "<group>"; };
+		283A248823D051BB00A7035D /* WebPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebPManager.m; sourceTree = "<group>"; };
+		283A248923D051BB00A7035D /* ImageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageData.h; sourceTree = "<group>"; };
+		283A248A23D051BC00A7035D /* ImageData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageData.m; sourceTree = "<group>"; };
+		283A248B23D051BC00A7035D /* StickerPack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StickerPack.h; sourceTree = "<group>"; };
+		283A248C23D051BC00A7035D /* StickerPackManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StickerPackManager.m; sourceTree = "<group>"; };
+		283A248D23D051BC00A7035D /* StickerPackManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StickerPackManager.h; sourceTree = "<group>"; };
+		283A248E23D051BC00A7035D /* Sticker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sticker.h; sourceTree = "<group>"; };
+		283A248F23D051BC00A7035D /* Interoperability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Interoperability.h; sourceTree = "<group>"; };
+		283A249023D051BC00A7035D /* Sticker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sticker.m; sourceTree = "<group>"; };
+		283A249823D0521C00A7035D /* Limits.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Limits.h; sourceTree = "<group>"; };
+		283A249A23D054D700A7035D /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebP.framework; path = TestStickerForWhatsApp/WebP.framework; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				283A249B23D054D700A7035D /* WebP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +144,7 @@
 		283A241F23D0505F00A7035D = {
 			isa = PBXGroup;
 			children = (
+				283A249923D054BE00A7035D /* Frameworks */,
 				283A242A23D0505F00A7035D /* TestStickerForWhatsApp */,
 				283A244623D0506400A7035D /* TestStickerForWhatsAppTests */,
 				283A245123D0506400A7035D /* TestStickerForWhatsAppUITests */,
@@ -94,7 +155,7 @@
 		283A242923D0505F00A7035D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				283A242823D0505F00A7035D /* TestStickerForWhatsApp.app */,
+				283A242823D0505F00A7035D /* TestSticker.app */,
 				283A244323D0506400A7035D /* TestStickerForWhatsAppTests.xctest */,
 				283A244E23D0506400A7035D /* TestStickerForWhatsAppUITests.xctest */,
 			);
@@ -104,6 +165,9 @@
 		283A242A23D0505F00A7035D /* TestStickerForWhatsApp */ = {
 			isa = PBXGroup;
 			children = (
+				283A248423D0518D00A7035D /* SwiftConvertToOC */,
+				283A246B23D0511E00A7035D /* WebP */,
+				283A246023D050DD00A7035D /* SampleStickers */,
 				283A242B23D0505F00A7035D /* AppDelegate.h */,
 				283A242C23D0505F00A7035D /* AppDelegate.m */,
 				283A242E23D0505F00A7035D /* SceneDelegate.h */,
@@ -137,6 +201,63 @@
 			path = TestStickerForWhatsAppUITests;
 			sourceTree = "<group>";
 		};
+		283A246023D050DD00A7035D /* SampleStickers */ = {
+			isa = PBXGroup;
+			children = (
+				283A246923D0511500A7035D /* sticker_packs.wasticker */,
+				283A246123D0510200A7035D /* 01_Cuppy_smile.png */,
+				283A246323D0510200A7035D /* 02_Cuppy_lol.png */,
+				283A246223D0510200A7035D /* 03_Cuppy_rofl.png */,
+				283A246423D0510200A7035D /* tray_Cuppy.png */,
+			);
+			path = SampleStickers;
+			sourceTree = "<group>";
+		};
+		283A246B23D0511E00A7035D /* WebP */ = {
+			isa = PBXGroup;
+			children = (
+				283A246E23D0513300A7035D /* YYAnimatedImageView.h */,
+				283A247423D0513400A7035D /* YYAnimatedImageView.m */,
+				283A247223D0513400A7035D /* YYFrameImage.h */,
+				283A247523D0513400A7035D /* YYFrameImage.m */,
+				283A246D23D0513300A7035D /* YYImage.h */,
+				283A246C23D0513300A7035D /* YYImage.m */,
+				283A247323D0513400A7035D /* YYImageCoder.h */,
+				283A246F23D0513300A7035D /* YYImageCoder.m */,
+				283A247023D0513300A7035D /* YYSpriteSheetImage.h */,
+				283A247123D0513400A7035D /* YYSpriteSheetImage.m */,
+			);
+			path = WebP;
+			sourceTree = "<group>";
+		};
+		283A248423D0518D00A7035D /* SwiftConvertToOC */ = {
+			isa = PBXGroup;
+			children = (
+				283A248923D051BB00A7035D /* ImageData.h */,
+				283A248A23D051BC00A7035D /* ImageData.m */,
+				283A248F23D051BC00A7035D /* Interoperability.h */,
+				283A248523D051BB00A7035D /* Interoperability.m */,
+				283A248E23D051BC00A7035D /* Sticker.h */,
+				283A249023D051BC00A7035D /* Sticker.m */,
+				283A248B23D051BC00A7035D /* StickerPack.h */,
+				283A248623D051BB00A7035D /* StickerPack.m */,
+				283A248D23D051BC00A7035D /* StickerPackManager.h */,
+				283A248C23D051BC00A7035D /* StickerPackManager.m */,
+				283A248723D051BB00A7035D /* WebPManager.h */,
+				283A248823D051BB00A7035D /* WebPManager.m */,
+				283A249823D0521C00A7035D /* Limits.h */,
+			);
+			path = SwiftConvertToOC;
+			sourceTree = "<group>";
+		};
+		283A249923D054BE00A7035D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				283A249A23D054D700A7035D /* WebP.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,6 +268,7 @@
 				283A242423D0505F00A7035D /* Sources */,
 				283A242523D0505F00A7035D /* Frameworks */,
 				283A242623D0505F00A7035D /* Resources */,
+				283A248323D0518400A7035D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,7 +276,7 @@
 			);
 			name = TestStickerForWhatsApp;
 			productName = TestStickerForWhatsApp;
-			productReference = 283A242823D0505F00A7035D /* TestStickerForWhatsApp.app */;
+			productReference = 283A242823D0505F00A7035D /* TestSticker.app */;
 			productType = "com.apple.product-type.application";
 		};
 		283A244223D0506400A7035D /* TestStickerForWhatsAppTests */ = {
@@ -240,9 +362,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				283A246A23D0511500A7035D /* sticker_packs.wasticker in Resources */,
 				283A243B23D0506400A7035D /* LaunchScreen.storyboard in Resources */,
 				283A243823D0506400A7035D /* Assets.xcassets in Resources */,
+				283A246823D0510200A7035D /* tray_Cuppy.png in Resources */,
+				283A246623D0510200A7035D /* 03_Cuppy_rofl.png in Resources */,
+				283A246723D0510200A7035D /* 02_Cuppy_lol.png in Resources */,
 				283A243623D0505F00A7035D /* Main.storyboard in Resources */,
+				283A246523D0510200A7035D /* 01_Cuppy_smile.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,10 +394,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				283A249423D051BC00A7035D /* ImageData.m in Sources */,
+				283A249223D051BC00A7035D /* StickerPack.m in Sources */,
 				283A243323D0505F00A7035D /* ViewController.m in Sources */,
+				283A247823D0513400A7035D /* YYSpriteSheetImage.m in Sources */,
 				283A242D23D0505F00A7035D /* AppDelegate.m in Sources */,
+				283A249623D051BC00A7035D /* Sticker.m in Sources */,
+				283A249123D051BC00A7035D /* Interoperability.m in Sources */,
+				283A249323D051BC00A7035D /* WebPManager.m in Sources */,
+				283A247923D0513400A7035D /* YYAnimatedImageView.m in Sources */,
 				283A243E23D0506400A7035D /* main.m in Sources */,
+				283A247723D0513400A7035D /* YYImageCoder.m in Sources */,
+				283A247A23D0513400A7035D /* YYFrameImage.m in Sources */,
 				283A243023D0505F00A7035D /* SceneDelegate.m in Sources */,
+				283A249523D051BC00A7035D /* StickerPackManager.m in Sources */,
+				283A247623D0513400A7035D /* YYImage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,14 +577,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = RL4N2ZATYZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestStickerForWhatsApp",
+				);
 				INFOPLIST_FILE = TestStickerForWhatsApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.unlimitedjoy.develop.TestStickerForWhatsApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.unlimitedjoy.develop;
+				PRODUCT_NAME = TestSticker;
+				PROVISIONING_PROFILE_SPECIFIER = com.unlimitedjoy.develop_dev;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -455,14 +601,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = RL4N2ZATYZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestStickerForWhatsApp",
+				);
 				INFOPLIST_FILE = TestStickerForWhatsApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.unlimitedjoy.develop.TestStickerForWhatsApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.unlimitedjoy.develop;
+				PRODUCT_NAME = TestSticker;
+				PROVISIONING_PROFILE_SPECIFIER = com.unlimitedjoy.develop_dev;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
