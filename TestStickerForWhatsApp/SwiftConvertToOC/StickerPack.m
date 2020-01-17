@@ -98,13 +98,13 @@ licenseAgreementWebsite:(NSString *)licenseAgreementWebsite {
         json[@"identifier"] = self.identifier;
         json[@"name"] = self.name;
         json[@"publisher"] = self.publisher;
-        json[@"tray_image"] = [UIImagePNGRepresentation(self.trayImage.image) base64EncodedStringWithOptions:NSDataBase64Encoding64CharacterLineLength];
+        json[@"tray_image"] = [UIImagePNGRepresentation(self.trayImage.image) base64EncodedStringWithOptions:0];
         NSMutableArray *stickersArray = [NSMutableArray new];
         for (Sticker *sticker in self.stickers) {
             NSMutableDictionary *stickerDict = [NSMutableDictionary new];
             NSData *imageData = sticker.imageData.webpData;
             if (imageData) {
-                stickerDict[@"image_data"] = [imageData base64EncodedStringWithOptions:NSDataBase64Encoding64CharacterLineLength];
+                stickerDict[@"image_data"] = [imageData base64EncodedStringWithOptions:0];
             }else {
                 NSLog(@"skip bad data");
                 continue;
